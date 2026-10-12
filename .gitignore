@@ -224,3 +224,7 @@ notebooks/.ipynb_checkpoints/
 *.pkl
 *.csv
 .env
+# trading-bot: cached price downloads
+data/cache/*
+!data/cache/.gitkeep
+*.parquet
